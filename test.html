@@ -1,0 +1,21 @@
+<html>
+   <head>
+      <title>Пояснение работы парсера</title>
+   </head>
+   <body>
+      <p>Какой-то наш код для примера</p>
+     <?php
+	require_once 'detect.php';
+	$detect = new Mobile_Detect;
+ 
+
+	if ( $detect->isMobile() ) {
+		include "mobile.html";
+	}
+		else{
+				include("index.html");
+			}
+?>
+      <p>И снова код страницы</p>
+   </body>
+</html>
