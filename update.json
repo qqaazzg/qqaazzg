@@ -1,9 +1,9 @@
 {
     "title": "Вам нравится приложение ?",
     "message": "Поделитесь своими впечатлениями в Google Play, нам очень важно ваше мнение",
-    "version": "20.2",
-    "build": 200,
+    "version": "0.1",
+    "build": 1,
     "type": "page",
-    "link": "https://play.google.com/store/apps/details?id=ru.blums.vkmus",
+    "link": "https://play.google.com/store/apps/details?id=ru.music.vkmoosic",
     "direct_link": ""
 }
